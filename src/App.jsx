@@ -1,11 +1,14 @@
+import { Navbar } from "flowbite-react";
 import "./App.css";
-
 function App() {
   return (
-    <>
-      <h1 className='text-3xl font-bold '>京都 ＋ 大阪 6 天 5 夜行程</h1>
-      <div className='card'></div>
-    </>
+    <Navbar fluid rounded>
+      <Navbar.Brand>
+        <span className='self-center whitespace-nowrap text-xl font-semibold dark:text-white'>
+          關西自由行
+        </span>
+      </Navbar.Brand>
+    </Navbar>
   );
 }
 
