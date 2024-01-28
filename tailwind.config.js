@@ -2,7 +2,7 @@
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   daisyui: {
-    themes: ["cupcake", "night"],
+    themes: ["pastel", "night"],
   },
   // eslint-disable-next-line no-undef
   plugins: [require("daisyui")],
