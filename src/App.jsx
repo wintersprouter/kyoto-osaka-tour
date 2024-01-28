@@ -4,9 +4,9 @@ function App() {
   return (
     <Navbar fluid rounded>
       <Navbar.Brand>
-        <span className='self-center whitespace-nowrap text-xl font-semibold dark:text-white'>
+        <h1 className='self-center whitespace-nowrap text-xl font-semibold dark:text-white'>
           關西自由行
-        </span>
+        </h1>
       </Navbar.Brand>
     </Navbar>
   );
