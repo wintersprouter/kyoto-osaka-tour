@@ -38,7 +38,7 @@ function App() {
       />
       <section className='my-5'>
         <ul className='timeline timeline-vertical timeline-compact'>
-          {ITINERARIES.map((item, index) => {
+          {ITINERARIES[`day${selectedDay.id}`].map((item, index) => {
             return (
               <li key={`${item.attraction.name}${index}`}>
                 <hr />
