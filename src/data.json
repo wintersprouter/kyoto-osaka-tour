@@ -1,7 +1,7 @@
 {
   "day1": [
     {
-      "departure_time": "5:00",
+      "departure_time": "4:00 起床",
       "transportation": null,
       "attraction": {
         "name": "家🏠",
@@ -24,7 +24,7 @@
       "attraction": null
     },
     {
-      "departure_time": "5:00",
+      "departure_time": "6:00",
       "transportation": null,
       "attraction": {
         "name": "桃園國際機場第二航廈",
@@ -47,7 +47,7 @@
       }
     },
     {
-      "departure_time": "8:10",
+      "departure_time": "12:35",
       "transportation": null,
       "attraction": {
         "name": "關西國際機場第一航廈",
@@ -60,17 +60,17 @@
       }
     },
     {
-      "departure_time": "13:44",
+      "departure_time": "13:14 / 13:44",
       "attraction": null,
       "transportation": {
         "type": "HARUKA",
         "fee": "JPY 2,200",
-        "description": "請於關西機場站檢票口附近的專用兌換機上兌換車票。劃位盡量選擇靠近最前排或是最後排的座位，以便放置行李。約 90分鐘 13:14-14:34 / 13:44-15:04 /  14:14-15:34 / 1514-16:34",
+        "description": "請於關西機場站檢票口附近的專用兌換機上兌換車票。劃位盡量選擇靠近最前排或是最後排的座位，以便放置行李。 13:14-14:34 / 13:44-15:04 /  14:14-15:34 / 1514-16:34",
         "duration": "1小時30分鐘"
       }
     },
     {
-      "departure_time": "8:10",
+      "departure_time": "14:34 / 15:04",
       "transportation": null,
       "attraction": {
         "name": "京都車站",
@@ -83,18 +83,18 @@
       }
     },
     {
-      "departure_time": "8:10",
+      "departure_time": "15:00 / 15:30",
       "attraction": null,
       "transportation": {
         "type": "Uber/Taxi",
         "fee": "0",
         "description": "搭８人座的Uber/Taxi",
         "departure_time": "",
-        "duration": "大約 15 分鐘"
+        "duration": "大約 10 分鐘"
       }
     },
     {
-      "departure_time": "8:10",
+      "departure_time": "15:10 /15:40",
       "transportation": null,
       "attraction": {
         "name": "THE BLOSSOM KYOTO",
@@ -104,6 +104,30 @@
         "location": "京都五条",
         "location_url": "https://maps.app.goo.gl/CfrPX76SDAiEQr4E9",
         "image_url": "https://www.jrk-hotels.co.jp/Kyoto/resources/images/gallery/p1-03.jpg"
+      }
+    },
+    {
+      "departure_time": "",
+      "attraction": null,
+      "transportation": {
+        "type": "走路",
+        "fee": "0",
+        "description": "",
+        "departure_time": "",
+        "duration": "大約 15 分鐘"
+      }
+    },
+    {
+      "departure_time": "",
+      "transportation": null,
+      "attraction": {
+        "name": "錦市場",
+        "description": "吃、逛街",
+        "fee": "",
+        "opening_time": "",
+        "location": "10:00〜17:00",
+        "location_url": "https://maps.app.goo.gl/X6QFT3tipHc2pfwq7",
+        "image_url": "https://www.kyoto-nishiki.or.jp/wp-content/themes/kyoto-nishiki/assets/img/about/img_symbol.jpg"
       }
     }
   ],
