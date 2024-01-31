@@ -131,7 +131,132 @@
       }
     }
   ],
-  "day2": [],
+  "day2": [
+    {
+      "departure_time": "早上",
+      "transportation": {
+        "type": "京都市營地鐵 + JR",
+        "fee": "JPY 460",
+        "description": "從五條（京都市營）搭乘地鐵到京都站，再搭乘山陰本線到JR嵯峨嵐山站",
+        "duration": "大約 34 分鐘"
+      },
+      "attraction": null
+    },
+    {
+      "departure_time": "早上",
+      "transportation": null,
+      "attraction": {
+        "name": "JR嵯峨嵐山站",
+        "description": "",
+        "fee": "",
+        "opening_time": "",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/1y6c2q4vb3dMP4TXA",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Saga_Arasiyama%2C_minamiguti%2C_West_Japan_Railway%2C_20090315.jpg"
+      }
+    },
+    {
+      "departure_time": "早上",
+      "transportation": null,
+      "attraction": {
+        "name": "嵯峨野 竹林小徑",
+        "description": "嵐山竹林是京都最具標誌性的景觀之一，漫步其中，您將對這座城市留下不可磨滅的印象。",
+        "fee": "",
+        "opening_time": "",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/5ArAJmGauFU6sZSA9",
+        "image_url": "https://sworld.co.uk/img/img/71/photoAlbum/149738/originals/0.jpg"
+      }
+    },
+    {
+      "departure_time": "早上",
+      "transportation": null,
+      "attraction": {
+        "name": "野宮神社",
+        "description": "野宮神社，這座神社因保佑婚姻美滿和安全分娩而備受日本國民尊崇",
+        "fee": "",
+        "opening_time": "",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/RoWZK8pf3YCPZeTc9",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Nonomiya-jinja_torii.jpeg"
+      }
+    },
+    {
+      "departure_time": "早上",
+      "transportation": null,
+      "attraction": {
+        "name": "天龍寺",
+        "description": "世界遺產天龍寺是坐落在京都著名觀光地“嵯峨嵐山”的臨濟宗禪刹。名勝嵐山和渡月橋，包括天龍寺西龜山公園，過去都曾歸屬于天龍寺。這一帶過去曾為檀林皇后、即嵯峨天皇的皇后橘嘉智子開創的禪寺“檀林寺”屬地。檀林寺廢棄後，後嵯峨太上皇在此修建仙洞禦所，爾後龜山太上皇將此地作為臨時禦所。",
+        "fee": "庭園：JPY 500",
+        "opening_time": "8:30~17:00",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/sHDqNSQuAAbLuTzX7",
+        "image_url": "https://www.tenryuji.com/season/images/IMG_1291-Edit-2.jpg"
+      }
+    },
+    {
+      "departure_time": "中午",
+      "transportation": null,
+      "attraction": {
+        "name": "嵐山大街",
+        "description": "吃小吃跟逛紀念品 1 可樂餅｜中村屋総本店 2 可樂餅｜嵯峨野コロッケ 3 豆腐料理｜三忠豆腐店 4 冰淇淋｜古都芋本舖 5 和牛料理｜おおつか（Otsuka）6 蕎麥麵｜嵐山蕎麥麵よしむら 7 湯豆腐｜嵯峨とうふ 稲 8 鰻魚飯｜うなぎ屋 廣川",
+        "fee": "",
+        "opening_time": "",
+        "location": "",
+        "location_url": "",
+        "image_url": ""
+      }
+    },
+    {
+      "departure_time": "下午",
+      "transportation": null,
+      "attraction": {
+        "name": "渡月橋",
+        "description": "渡月橋全長 155 公尺，橫跨於緩慢流經嵯峨嵐山 的桂川上，是京都著名的景點，可以欣賞到西部丘陵的美景。優美橋身展現出日式傳統精髓的美感。渡月橋的橋畔林立著許多紀念品店，人力車穿梭於街道上，營造出日本的舊時代氛圍。",
+        "fee": "",
+        "opening_time": "",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/JDo23Br1BNz2CFREA",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Togetsukyo_in_Kyoto_Arashiyama.jpg"
+      }
+    },
+    {
+      "departure_time": "傍晚",
+      "transportation": {
+        "type": "JR",
+        "fee": "JPY 240",
+        "description": "從JR嵯峨嵐山站搭乘JR到京都站",
+        "duration": "大約 16 分鐘"
+      },
+      "attraction": null
+    },
+    {
+      "departure_time": "晚上",
+      "transportation": null,
+      "attraction": {
+        "name": "友都八喜相機多媒體 京都店",
+        "description": "電器、UNIQLO、ABC MART、西松屋、百円店CAN DO、B2超市LOPIA（10:00~20:00)",
+        "fee": "",
+        "opening_time": "9:00~22:00",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/wh3rPyY32zoLjqM58",
+        "image_url": "https://image.yodobashi.com/catalog/kalmia/cs/satellite/1172769784251.gif"
+      }
+    },
+    {
+      "departure_time": "",
+      "transportation": null,
+      "attraction": {
+        "name": "THE BLOSSOM KYOTO",
+        "description": "入住 15:00　退房 11:00",
+        "fee": "JPY 6,531",
+        "opening_time": "",
+        "location": "京都五条",
+        "location_url": "https://maps.app.goo.gl/CfrPX76SDAiEQr4E9",
+        "image_url": "https://www.jrk-hotels.co.jp/Kyoto/resources/images/gallery/p1-03.jpg"
+      }
+    }
+  ],
   "day3": [],
   "day4": [],
   "day5": [],
