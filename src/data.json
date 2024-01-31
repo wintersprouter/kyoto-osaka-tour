@@ -257,7 +257,32 @@
       }
     }
   ],
-  "day3": [],
+  "day3": [
+    {
+      "departure_time": "早上",
+      "attraction": null,
+      "transportation": {
+        "type": "Uber/Taxi",
+        "fee": "",
+        "description": "",
+        "departure_time": "",
+        "duration": "大約 10 分鐘"
+      }
+    },
+    {
+      "departure_time": "",
+      "transportation": null,
+      "attraction": {
+        "name": "清水寺",
+        "description": "",
+        "fee": "JPY 300",
+        "opening_time": "06:00–18:00",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/VWSvPuEG3N9iwYzy6",
+        "image_url": "https://www.kiyomizudera.or.jp/assets/img/season/spring_ph_02.webp"
+      }
+    }
+  ],
   "day4": [],
   "day5": [],
   "day6": []
