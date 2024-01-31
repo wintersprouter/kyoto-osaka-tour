@@ -31,7 +31,7 @@
         "description": "前往華航櫃檯報到\r掛行李\r過海關",
         "fee": "",
         "opening_time": "24小時",
-        "location": "桃園市大園區航站南路9號",
+        "location": "桃園市",
         "location_url": "https://maps.app.goo.gl/oA9vqygxc3KLf9u79",
         "image_url": ""
       }
@@ -54,7 +54,7 @@
         "description": "入境過海關、取行李、換SIM卡、前往JR關西機場站",
         "fee": "",
         "opening_time": "",
-        "location": "",
+        "location": "日本大阪",
         "location_url": "",
         "image_url": "https://www.travelvoice.jp/wp-content/uploads/2013/12/stockfoto_17199304_S.jpg"
       }
@@ -98,12 +98,12 @@
       "transportation": null,
       "attraction": {
         "name": "THE BLOSSOM KYOTO",
-        "description": "",
-        "fee": "",
+        "description": "入住 15:00　退房 11:00",
+        "fee": "JPY 6,531",
         "opening_time": "",
-        "location": "京都府京都市下京區五條通東之院萬壽寺町140-2",
+        "location": "京都五条",
         "location_url": "https://maps.app.goo.gl/CfrPX76SDAiEQr4E9",
-        "image_url": ""
+        "image_url": "https://www.jrk-hotels.co.jp/Kyoto/resources/images/gallery/p1-03.jpg"
       }
     }
   ],

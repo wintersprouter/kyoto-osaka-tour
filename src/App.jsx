@@ -62,7 +62,7 @@ function App() {
                     {item.attraction === null ? (
                       <div
                         className='card card-compact bg-secondary
-                  text-primary-content shadow-xl'
+                  text-primary-content shadow-xl p-4'
                       >
                         <div className='card-body'>
                           <h2 className='card-title'>
@@ -96,13 +96,13 @@ function App() {
                         </div>
                       </div>
                     ) : (
-                      <div className='card card-compact card-side bg-base-100 shadow-2xl'>
+                      <div className='card card-compact  bg-base-100 shadow-2xl p-4'>
                         {item.attraction.image_url && (
                           <figure>
                             <img
                               src={item.attraction.image_url}
                               alt={item.attraction.name}
-                              className='rounded-xl bg-cover h-full md:max-w-5'
+                              className='rounded-xl bg-cover'
                             />
                           </figure>
                         )}
@@ -113,7 +113,7 @@ function App() {
                           </p>
                           <div className='card-actions justify-start col'>
                             <button
-                              className='btn'
+                              className='btn btn-sm text-pretty'
                               disabled={
                                 item.attraction.location_url.length === 0
                               }
