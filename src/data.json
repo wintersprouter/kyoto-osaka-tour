@@ -1,6 +1,8 @@
 {
   "day1": [
     {
+      "departure_time": "5:00",
+      "transportation": null,
       "attraction": {
         "name": "家🏠",
         "description": "從家裡出發",
@@ -9,16 +11,21 @@
         "location": "台北市",
         "location_url": "",
         "image_url": ""
-      },
+      }
+    },
+    {
+      "departure_time": "5:00",
       "transportation": {
         "type": "機場接送",
         "fee": "0",
         "description": "",
-        "departure_time": "5:00",
-        "duration": "大約 30-40 分鐘"
-      }
+        "duration": "大約 40 分鐘"
+      },
+      "attraction": null
     },
     {
+      "departure_time": "5:00",
+      "transportation": null,
       "attraction": {
         "name": "桃園國際機場第二航廈",
         "description": "前往華航櫃檯報到\r掛行李\r過海關",
@@ -27,16 +34,21 @@
         "location": "桃園市大園區航站南路9號",
         "location_url": "https://maps.app.goo.gl/oA9vqygxc3KLf9u79",
         "image_url": ""
-      },
+      }
+    },
+    {
+      "departure_time": "8:10",
+      "attraction": null,
       "transportation": {
         "type": "中華航空",
         "fee": "NTD 8,175",
         "description": "機上有提供餐盒",
-        "departure_time": "8:10",
         "duration": "3小時25分鐘"
       }
     },
     {
+      "departure_time": "8:10",
+      "transportation": null,
       "attraction": {
         "name": "關西國際機場第一航廈",
         "description": "入境過海關、取行李、換SIM卡、前往JR關西機場站",
@@ -45,16 +57,21 @@
         "location": "",
         "location_url": "",
         "image_url": "https://www.travelvoice.jp/wp-content/uploads/2013/12/stockfoto_17199304_S.jpg"
-      },
+      }
+    },
+    {
+      "departure_time": "13:44",
+      "attraction": null,
       "transportation": {
         "type": "HARUKA",
         "fee": "JPY 2,200",
-        "description": "請於關西機場站檢票口附近的 專用兌換機上兌換車票。劃位盡量選擇靠近最前排或是最後排的座位，以便放置行李。",
-        "departure_time": "13:44",
+        "description": "請於關西機場站檢票口附近的專用兌換機上兌換車票。劃位盡量選擇靠近最前排或是最後排的座位，以便放置行李。約 90分鐘 13:14-14:34 / 13:44-15:04 /  14:14-15:34 / 1514-16:34",
         "duration": "1小時30分鐘"
       }
     },
     {
+      "departure_time": "8:10",
+      "transportation": null,
       "attraction": {
         "name": "京都車站",
         "description": "",
@@ -63,13 +80,30 @@
         "location": "",
         "location_url": "https://maps.app.goo.gl/CfrPX76SDAiEQr4E9",
         "image_url": "https://www.jr-odekake.net/eki/img/photo/size_l/0610116_l_148703df-3887-4b0b-8830-3cd15eeb70b9.jpg"
-      },
+      }
+    },
+    {
+      "departure_time": "8:10",
+      "attraction": null,
       "transportation": {
         "type": "Uber/Taxi",
         "fee": "0",
         "description": "搭８人座的Uber/Taxi",
         "departure_time": "",
         "duration": "大約 15 分鐘"
+      }
+    },
+    {
+      "departure_time": "8:10",
+      "transportation": null,
+      "attraction": {
+        "name": "THE BLOSSOM KYOTO",
+        "description": "",
+        "fee": "",
+        "opening_time": "",
+        "location": "京都府京都市下京區五條通東之院萬壽寺町140-2",
+        "location_url": "https://maps.app.goo.gl/CfrPX76SDAiEQr4E9",
+        "image_url": ""
       }
     }
   ],

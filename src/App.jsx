@@ -40,11 +40,9 @@ function App() {
         <ul className='timeline timeline-vertical timeline-compact'>
           {ITINERARIES[`day${selectedDay.id}`].map((item, index) => {
             return (
-              <li key={`${item.attraction.name}${index}`}>
+              <li key={`${index}`}>
                 <hr />
-                <div className='timeline-start'>
-                  {item.transportation.departure_time}
-                </div>
+                <div className='timeline-start'>{item.departure_time}</div>
                 <div className='timeline-middle'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
@@ -61,88 +59,97 @@ function App() {
                 </div>
                 <div className='timeline-end'>
                   <div className='container flex flex-col gap-4'>
-                    <div className='card card-compact card-side bg-base-100 shadow-2xl'>
-                      {item.attraction.image_url && (
-                        <figure>
-                          <img
-                            src={item.attraction.image_url}
-                            alt={item.attraction.name}
-                            className='rounded-lg bg-cover h-full md:max-w-5'
-                          />
-                        </figure>
-                      )}
-                      <div className='card-body'>
-                        <h2 className='card-title'>{item.attraction.name}</h2>
-                        <p className='text-left'>
-                          {item.attraction.description}
-                        </p>
-                        <div className='card-actions justify-start col'>
-                          <button
-                            className='btn'
-                            disabled={item.attraction.location_url.length === 0}
-                            onClick={() => {
-                              if (item.attraction.location_url.length === 0)
-                                return;
-                              window.open(
-                                item.attraction.location_url,
-                                "_blank"
-                              );
-                            }}
-                          >
-                            <MapPin />
-                            {item.attraction.location}
-                          </button>
-                          {item.attraction.fee.length > 0 && (
-                            <div className='badge badge-outline badge-lg border-primary'>
+                    {item.attraction === null ? (
+                      <div
+                        className='card card-compact bg-secondary
+                  text-primary-content shadow-xl'
+                      >
+                        <div className='card-body'>
+                          <h2 className='card-title'>
+                            {item.transportation.type}
+                          </h2>
+                          <p className='text-left'>
+                            {item.transportation.description}
+                          </p>
+                        </div>
+                        <div className='card-actions justify-start'>
+                          {item.transportation.fee.length > 0 && (
+                            <div className='badge badge-accent badge-lg'>
                               <span className='mr-2'>
                                 <DollarSign size={18} />
                               </span>
-                              {item.attraction.fee}
+                              <p className='text-lg sm:text-sm'>
+                                {item.transportation.fee}
+                              </p>
                             </div>
                           )}
-                          {item.attraction.opening_time.length > 0 && (
-                            <div className='badge badge-outline badge-lg badge-secondary'>
+                          {item.transportation.duration.length > 0 && (
+                            <div className='badge badge-ghost badge-lg '>
                               <span className='mr-2'>
                                 <Clock size={18} />
                               </span>
-
-                              {item.attraction.opening_time}
+                              <p className='text-lg sm:text-sm'>
+                                {item.transportation.duration}
+                              </p>
                             </div>
                           )}
                         </div>
                       </div>
-                    </div>
-                    <div
-                      className='card card-compact bg-secondary
-                  text-primary-content shadow-xl'
-                    >
-                      <div className='card-body'>
-                        <h2 className='card-title'>
-                          {item.transportation.type}
-                        </h2>
-                        <p className='text-left'>
-                          {item.transportation.description}
-                        </p>
-                      </div>
-                      <div className='card-actions justify-start'>
-                        {item.transportation.fee.length > 0 && (
-                          <div className='badge badge-accent badge-lg'>
-                            <span className='mr-2'>
-                              <DollarSign size={18} />
-                            </span>
-                            {item.transportation.fee}
-                          </div>
+                    ) : (
+                      <div className='card card-compact card-side bg-base-100 shadow-2xl'>
+                        {item.attraction.image_url && (
+                          <figure>
+                            <img
+                              src={item.attraction.image_url}
+                              alt={item.attraction.name}
+                              className='rounded-xl bg-cover h-full md:max-w-5'
+                            />
+                          </figure>
                         )}
-                        {item.transportation.duration.length > 0 && (
-                          <div className='badge badge-ghost badge-lg '>
-                            <span className='mr-2'>
-                              <Clock size={18} />
-                            </span>
-                            {item.transportation.duration}
+                        <div className='card-body'>
+                          <h2 className='card-title'>{item.attraction.name}</h2>
+                          <p className='text-left'>
+                            {item.attraction.description}
+                          </p>
+                          <div className='card-actions justify-start col'>
+                            <button
+                              className='btn'
+                              disabled={
+                                item.attraction.location_url.length === 0
+                              }
+                              onClick={() => {
+                                if (item.attraction.location_url.length === 0)
+                                  return;
+                                window.open(
+                                  item.attraction.location_url,
+                                  "_blank"
+                                );
+                              }}
+                            >
+                              <MapPin />
+                              {item.attraction.location}
+                            </button>
+                            {item.attraction.fee.length > 0 && (
+                              <div className='badge badge-outline badge-lg border-primary'>
+                                <span className='mr-2'>
+                                  <DollarSign size={18} />
+                                </span>
+                                {item.attraction.fee}
+                              </div>
+                            )}
+                            {item.attraction.opening_time.length > 0 && (
+                              <div className='badge badge-outline badge-lg badge-secondary'>
+                                <span className='mr-2'>
+                                  <Clock size={18} />
+                                </span>
+
+                                {item.attraction.opening_time}
+                              </div>
+                            )}
                           </div>
-                        )}
+                        </div>
                       </div>
-                    </div>
+                    )}
                   </div>
                 </div>
                 <hr />
