@@ -6,4 +6,8 @@ import { defineConfig } from "vite";
 export default defineConfig({
   plugins: [react()],
   base: process.env.NODE_ENV === "production" ? "/kyoto-osaka-tour/" : "/",
+  esbuild: {
+    jsxFactory: "React.createElement",
+    jsxFragment: "React.Fragment",
+  },
 });
