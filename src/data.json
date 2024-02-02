@@ -329,7 +329,7 @@
       }
     },
     {
-      "departure_time": "",
+      "departure_time": "早上",
       "transportation": null,
       "attraction": {
         "name": "清水寺",
@@ -339,6 +339,91 @@
         "location": "",
         "location_url": "https://maps.app.goo.gl/VWSvPuEG3N9iwYzy6",
         "image_url": "https://www.kiyomizudera.or.jp/assets/img/season/spring_ph_02.webp"
+      }
+    },
+    {
+      "departure_time": "早上",
+      "transportation": null,
+      "attraction": {
+        "name": "三年坂（產寧坂)",
+        "description": "建於大同三年(西元808年)，因而稱做「三年坂」，又因為日文發音類似產寧，也有人叫「產寧坂」，這是古代孕婦通往清水寺「子安塔」祈求產子順利的道路",
+        "fee": "",
+        "opening_time": "",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/4WSm2qZaaWucHknx6?g_st=ic",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Sanneizaka-kyoto.JPG/2560px-Sanneizaka-kyoto.JPG",
+        "descLists": [
+          {
+            "listTitle": "特色店家",
+            "listItem": [
+              "明保野亭：販售湯豆腐",
+              "藤菜美:保留了京都傳統風味的醬油丸子專賣店",
+              "橡子共和國:吉卜力動畫相關的周邊商品"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "departure_time": "早上",
+      "transportation": null,
+      "attraction": {
+        "name": "二年坂（二寧坂)",
+        "description": "",
+        "fee": "",
+        "opening_time": "",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/sghagbV39Y51XhGW8?g_st=ic",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Ninenzaka-kyoto.JPG",
+        "descLists": [
+          {
+            "listTitle": "特色店家",
+            "listItem": [
+              "我樂苦多（Three Umbrellas, Cafe Garakuta）是一間咖啡茶屋",
+              "榻榻米星巴克:全世界唯一",
+              "橡子共和國:吉卜力動畫相關的周邊商品"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "departure_time": "早上",
+      "transportation": null,
+      "attraction": {
+        "name": "金剛寺 八坂庚申堂(猴子神社)",
+        "description": "八坂庚申堂境內最吸引目光的就是近年在SNS引起熱烈討論，以色彩鮮艷布料作成的「許願猴」。手腳被綁住無法活動的猿猴御守，代表就像猴子一般總是動個不停的心靈能平靜下來、約束自我慾望。據說只要向許願猴許下兩個願望，並能捨棄其中一個的話願望就能實現。在一個個手工製作的許願猴上寫下願望、日期和姓名後吊掛上去就可以。",
+        "fee": "",
+        "opening_time": "09:00~17:00",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/qeRwMYdxGc8f89PLA?g_st=ic",
+        "image_url": "http://www.yasakakousinndou.sakura.ne.jp/myweb007002.jpg"
+      }
+    },
+    {
+      "departure_time": "早上",
+      "transportation": null,
+      "attraction": {
+        "name": "八阪神社",
+        "description": "八阪神社是京都 最受敬仰的宗教場所之一。神社幾乎總是充滿了活力，熱切的信徒如潮水般湧來，接受福祉，祈求好運。參觀這座位於京都 的重要神道神社，您自己也可能會收穫一些好運。",
+        "fee": "",
+        "opening_time": "",
+        "location": "https://maps.app.goo.gl/MpipXxFHdgiASbeN8?g_st=ic",
+        "location_url": "",
+        "image_url": "https://www.yasaka-jinja.or.jp/wp-content/themes/yasaka/img/about/img_about_highlights_spring05.jpg"
+      }
+    },
+    {
+      "departure_time": "中午",
+      "transportation": null,
+      "attraction": {
+        "name": "祇園花見小路",
+        "description": "座落在祇園區的花見小路是京都市最有名的街道之一。這個別具歷史意義的地區可以帶領您重回日本往日風情，到處可見傳統木屋商家和古色古香的茶屋。這裡也是其中一個仍保有京都藝妓的地區，您很可能會在午後漫步時恰巧目睹藝妓的優雅身影。",
+        "fee": "",
+        "opening_time": "",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/fRqMt8SwZK2UVYxXA?g_st=ic",
+        "image_url": ""
       }
     }
   ],
