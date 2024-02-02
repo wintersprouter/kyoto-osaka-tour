@@ -84,7 +84,7 @@
       "transportation": null,
       "attraction": {
         "name": "關西國際機場第一航廈",
-        "description": "入境過海關、取行李、換SIM卡、前往JR關西機場站",
+        "description": "入境過海關、取行李、換SIM卡、前往JR關西機場站、購買關西ICOCA地鐵交通卡",
         "fee": "",
         "opening_time": "",
         "location": "日本大阪",
@@ -143,7 +143,7 @@
       "attraction": {
         "name": "THE BLOSSOM KYOTO",
         "description": "入住 15:00　退房 11:00",
-        "fee": "JPY 6,531",
+        "fee": "JPY 6,531/人/晚",
         "opening_time": "",
         "location": "京都五条",
         "location_url": "https://www.google.com/travel/hotels/s/qSkQhpSoEjwm6VK46",
@@ -183,7 +183,8 @@
               "タコとハイボール錦市場店 章魚燒",
               "抹茶スイーツ館 茶和々 錦店",
               "魚力",
-              "カリカリ博士 章魚燒"
+              "カリカリ博士 章魚燒",
+              "花よりキヨエ 豆皮奶油可樂餅"
             ]
           }
         ]
@@ -191,6 +192,19 @@
     }
   ],
   "day2": [
+    {
+      "departure_time": "早上",
+      "transportation": null,
+      "attraction": {
+        "name": "THE BLOSSOM KYOTO",
+        "description": "",
+        "fee": "",
+        "opening_time": "",
+        "location": "京都五条",
+        "location_url": "https://www.google.com/travel/hotels/s/qSkQhpSoEjwm6VK46",
+        "image_url": "https://www.jrk-hotels.co.jp/Kyoto/resources/images/gallery/p1-03.jpg"
+      }
+    },
     {
       "departure_time": "早上",
       "transportation": {
@@ -258,12 +272,27 @@
       "transportation": null,
       "attraction": {
         "name": "嵐山大街",
-        "description": "吃小吃跟逛紀念品 1 可樂餅｜中村屋総本店 2 可樂餅｜嵯峨野コロッケ 3 豆腐料理｜三忠豆腐店 4 冰淇淋｜古都芋本舖 5 和牛料理｜おおつか（Otsuka）6 蕎麥麵｜嵐山蕎麥麵よしむら 7 湯豆腐｜嵯峨とうふ 稲 8 鰻魚飯｜うなぎ屋 廣川",
+        "description": "吃小吃跟逛紀念品",
         "fee": "",
         "opening_time": "",
         "location": "",
         "location_url": "",
-        "image_url": ""
+        "image_url": "",
+        "descLists": [
+          {
+            "listTitle": "必吃名單",
+            "listItem": [
+              "可樂餅｜中村屋総本店",
+              "可樂餅｜嵯峨野コロッケ",
+              "豆腐料理｜三忠豆腐店",
+              "冰淇淋｜古都芋本舖",
+              "和牛料理｜おおつか（Otsuka",
+              "蕎麥麵｜嵐山蕎麥麵よしむら",
+              "湯豆腐｜嵯峨とうふ 稲",
+              "鰻魚飯｜うなぎ屋 廣川"
+            ]
+          }
+        ]
       }
     },
     {
@@ -308,7 +337,7 @@
       "attraction": {
         "name": "THE BLOSSOM KYOTO",
         "description": "入住 15:00　退房 11:00",
-        "fee": "JPY 6,531",
+        "fee": "JPY 6,531/人/晚",
         "opening_time": "",
         "location": "京都五条",
         "location_url": "https://www.google.com/travel/hotels/s/qSkQhpSoEjwm6VK46",
@@ -319,11 +348,24 @@
   "day3": [
     {
       "departure_time": "早上",
+      "transportation": null,
+      "attraction": {
+        "name": "THE BLOSSOM KYOTO",
+        "description": "退房 11:00，寄放行李在飯店",
+        "fee": "",
+        "opening_time": "",
+        "location": "京都五条",
+        "location_url": "https://www.google.com/travel/hotels/s/qSkQhpSoEjwm6VK46",
+        "image_url": "https://www.jrk-hotels.co.jp/Kyoto/resources/images/gallery/p1-03.jpg"
+      }
+    },
+    {
+      "departure_time": "早上",
       "attraction": null,
       "transportation": {
         "type": "Uber/Taxi",
         "fee": "",
-        "description": "",
+        "description": "從飯店搭計程車直接搭到清水寺停車場",
         "departure_time": "",
         "duration": "大約 10 分鐘"
       }
@@ -425,9 +467,141 @@
         "location_url": "https://maps.app.goo.gl/fRqMt8SwZK2UVYxXA?g_st=ic",
         "image_url": ""
       }
+    },
+    {
+      "departure_time": "下午",
+      "transportation": null,
+      "attraction": {
+        "name": "錦天滿宮",
+        "description": "日本京都府京都市的一個神社，位於中京區錦小路通新京極通，錦市場以東。祭祀學問之神菅原道真。",
+        "fee": "",
+        "opening_time": "",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/fRqMt8SwZK2UVYxXA?g_st=ic",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Nishiki_Tenman-gu%2C_Worship_hall_01.jpg"
+      }
+    },
+    {
+      "departure_time": "下午",
+      "transportation": null,
+      "attraction": {
+        "name": "THE BLOSSOM KYOTO",
+        "description": "取行李",
+        "fee": "",
+        "opening_time": "",
+        "location": "京都五条",
+        "location_url": "https://www.google.com/travel/hotels/s/qSkQhpSoEjwm6VK46",
+        "image_url": "https://www.jrk-hotels.co.jp/Kyoto/resources/images/gallery/p1-03.jpg"
+      }
+    },
+    {
+      "departure_time": "下午",
+      "transportation": {
+        "type": "京都市營地鐵 + 阪急京都線",
+        "fee": "JPY 870",
+        "description": "從五條（京都市營）搭乘地鐵到-四條（京都市營），再搭乘阪急京都線到烏丸-日本橋",
+        "duration": "大約 60 分鐘"
+      },
+      "attraction": null
+    },
+    {
+      "departure_time": "下午",
+      "transportation": {
+        "type": "走路",
+        "fee": "",
+        "description": "170 公尺",
+        "duration": "大約 2 分鐘"
+      },
+      "attraction": null
+    },
+    {
+      "departure_time": "16:00",
+      "transportation": null,
+      "attraction": {
+        "name": "BON公寓酒店 難波日本橋",
+        "description": "[入住] 16:00之後 [退房] 至10:00",
+        "fee": "NTD 1,068/人/晚",
+        "opening_time": "",
+        "location": "大阪府大阪市中央区日本橋１丁目８−１７",
+        "location_url": "https://maps.app.goo.gl/oqykpP2EZ9R1vnbR8",
+        "image_url": "https://www.bon-lodging.com/wp-content/uploads/2021/02/003_nihonbashi_main.jpg"
+      }
     }
   ],
-  "day4": [],
+  "day4": [
+    {
+      "departure_time": "8:30",
+      "transportation": null,
+      "attraction": {
+        "name": "BON公寓酒店 難波日本橋",
+        "description": "民宿出發",
+        "fee": "",
+        "opening_time": "",
+        "location": "大阪府大阪市中央区日本橋１丁目８−１７",
+        "location_url": "https://maps.app.goo.gl/oqykpP2EZ9R1vnbR8",
+        "image_url": "https://www.bon-lodging.com/wp-content/uploads/2021/02/003_nihonbashi_main.jpg"
+      }
+    },
+    {
+      "departure_time": "早上",
+      "transportation": {
+        "type": "大阪市高速电气轨道",
+        "fee": "大阪周遊券一日券",
+        "description": "日本橋（大阪）堺筋線至堺筋本町，在堺筋本町轉乘中央線，搭到谷町四丁目車站",
+        "duration": "大約 30 分鐘"
+      },
+      "attraction": null
+    },
+    {
+      "departure_time": "早上",
+      "transportation": null,
+      "attraction": {
+        "name": "大阪城",
+        "description": "先去兌換大阪城御座船",
+        "fee": "大阪周遊券一日券",
+        "opening_time": "09:00-17:00",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/6wkpkwUaTbxqwB2E6",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Osaka_Castle_Nishinomaru_Garden_April_2005.JPG"
+      }
+    },
+    {
+      "departure_time": "早上",
+      "transportation": null,
+      "attraction": {
+        "name": "大阪城御座船",
+        "description": "門票從9點30分開始販售。遊覽大阪城護城河20分鐘",
+        "fee": "大阪周遊券一日券",
+        "opening_time": "10:00-16:30 (11月~2月)",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/6wkpkwUaTbxqwB2E6",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Osaka_Castle_Nishinomaru_Garden_April_2005.JPG"
+      }
+    },
+    {
+      "departure_time": "早上",
+      "transportation": {
+        "type": "大阪市高速电气轨道",
+        "fee": "大阪周遊券一日券",
+        "description": "谷町四丁目車站中央線至大阪港",
+        "duration": "大約 30 分鐘"
+      },
+      "attraction": null
+    },
+    {
+      "departure_time": "中午",
+      "transportation": null,
+      "attraction": {
+        "name": "天保山購物中心",
+        "description": "吃飯、逛街",
+        "fee": "",
+        "opening_time": "天保山購物中心",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/GUPjg9CYHnw3meP47",
+        "image_url": ""
+      }
+    }
+  ],
   "day5": [],
   "day6": []
 }
