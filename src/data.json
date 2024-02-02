@@ -37,6 +37,39 @@
       }
     },
     {
+      "departure_time": "7:00",
+      "transportation": null,
+      "attraction": {
+        "name": "機場貴賓室",
+        "description": "休息",
+        "descLists": [
+          {
+            "listTitle": "東方宇逸貴賓室",
+            "listItem": [
+              "台北桃園國際機場, 第 2 航站樓空側 - 國際離境大堂。4 樓，離境大堂。",
+              "PRIORITY PASS 會員可使用"
+            ]
+          },
+          {
+            "listTitle": "環亞機場貴賓室（第2航廈離境大堂A區）",
+            "listItem": [
+              "台灣桃園國際機場第2航廈4樓管制區內A區。",
+              "PRIORITY PASS 會員可使用"
+            ]
+          },
+          {
+            "listTitle": "免費貴賓室",
+            "listItem": ["4樓出境大廳北側，華航梅苑的後方", "免費", "環亞前面"]
+          }
+        ],
+        "fee": "0",
+        "opening_time": "24小時",
+        "location": "桃園市",
+        "location_url": "https://maps.app.goo.gl/oA9vqygxc3KLf9u79",
+        "image_url": ""
+      }
+    },
+    {
       "departure_time": "8:10",
       "attraction": null,
       "transportation": {
@@ -65,7 +98,18 @@
       "transportation": {
         "type": "HARUKA",
         "fee": "JPY 2,200",
-        "description": "請於關西機場站檢票口附近的專用兌換機上兌換車票。劃位盡量選擇靠近最前排或是最後排的座位，以便放置行李。 13:14-14:34 / 13:44-15:04 /  14:14-15:34 / 1514-16:34",
+        "description": "請於關西機場站檢票口附近的專用兌換機上兌換車票。劃位盡量選擇靠近最前排或是最後排的座位，以便放置行李。",
+        "descLists": [
+          {
+            "listTitle": "乘車時刻表",
+            "listItem": [
+              "13:14-14:34",
+              "13:44-15:04",
+              "14:14-15:34",
+              "15:14-16:34"
+            ]
+          }
+        ],
         "duration": "1小時30分鐘"
       }
     },
@@ -87,8 +131,8 @@
       "attraction": null,
       "transportation": {
         "type": "Uber/Taxi",
-        "fee": "0",
-        "description": "搭８人座的Uber/Taxi",
+        "fee": "",
+        "description": "搭6人座的Uber/Taxi",
         "departure_time": "",
         "duration": "大約 10 分鐘"
       }
@@ -102,7 +146,7 @@
         "fee": "JPY 6,531",
         "opening_time": "",
         "location": "京都五条",
-        "location_url": "https://maps.app.goo.gl/CfrPX76SDAiEQr4E9",
+        "location_url": "https://www.google.com/travel/hotels/s/qSkQhpSoEjwm6VK46",
         "image_url": "https://www.jrk-hotels.co.jp/Kyoto/resources/images/gallery/p1-03.jpg"
       }
     },
@@ -127,7 +171,22 @@
         "opening_time": "",
         "location": "10:00〜17:00",
         "location_url": "https://maps.app.goo.gl/X6QFT3tipHc2pfwq7",
-        "image_url": "https://www.kyoto-nishiki.or.jp/wp-content/themes/kyoto-nishiki/assets/img/about/img_symbol.jpg"
+        "image_url": "https://www.kyoto-nishiki.or.jp/wp-content/themes/kyoto-nishiki/assets/img/about/img_symbol.jpg",
+        "descLists": [
+          {
+            "listTitle": "必吃名單",
+            "listItem": [
+              "田中雞卵 玉子燒、雞蛋製品",
+              "三木雞卵 玉子燒、雞蛋製品",
+              "富美家 烏龍麵",
+              "藤野豆乳甜甜圈",
+              "タコとハイボール錦市場店 章魚燒",
+              "抹茶スイーツ館 茶和々 錦店",
+              "魚力",
+              "カリカリ博士 章魚燒"
+            ]
+          }
+        ]
       }
     }
   ],
@@ -252,7 +311,7 @@
         "fee": "JPY 6,531",
         "opening_time": "",
         "location": "京都五条",
-        "location_url": "https://maps.app.goo.gl/CfrPX76SDAiEQr4E9",
+        "location_url": "https://www.google.com/travel/hotels/s/qSkQhpSoEjwm6VK46",
         "image_url": "https://www.jrk-hotels.co.jp/Kyoto/resources/images/gallery/p1-03.jpg"
       }
     }

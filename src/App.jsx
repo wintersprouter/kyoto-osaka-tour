@@ -71,8 +71,25 @@ function App() {
                           <p className='text-left'>
                             {item.transportation.description}
                           </p>
+                          {item.transportation.descLists &&
+                            item.transportation.descLists.map((desc, index) => (
+                              <div key={index} className='my-2'>
+                                <h3 className='text-lg font-semibold text-left'>
+                                  {desc.listTitle}
+                                </h3>
+                                <ul className='list-outside list-disc'>
+                                  {desc.listItem.map((list, index) => (
+                                    <li key={index}>
+                                      <p className='text-md text-left'>
+                                        {list}
+                                      </p>
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                            ))}
                         </div>
-                        <div className='card-actions justify-start'>
+                        <div className='card-actions justify-start items-center'>
                           {item.transportation.fee.length > 0 && (
                             <div className='badge badge-accent badge-lg'>
                               <span className='mr-2'>
@@ -111,7 +128,24 @@ function App() {
                           <p className='text-left'>
                             {item.attraction.description}
                           </p>
-                          <div className='card-actions justify-start col'>
+                          {item.attraction.descLists &&
+                            item.attraction.descLists.map((desc, index) => (
+                              <div key={index} className='my-2'>
+                                <h3 className='text-lg font-semibold text-left'>
+                                  {desc.listTitle}
+                                </h3>
+                                <ul className='list-outside list-disc'>
+                                  {desc.listItem.map((list, index) => (
+                                    <li key={index}>
+                                      <p className='text-md text-left'>
+                                        {list}
+                                      </p>
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                            ))}
+                          <div className='card-actions justify-start col items-center'>
                             <button
                               className='btn btn-sm text-pretty'
                               disabled={
