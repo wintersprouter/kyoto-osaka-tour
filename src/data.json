@@ -595,10 +595,72 @@
         "name": "天保山購物中心",
         "description": "吃飯、逛街",
         "fee": "",
-        "opening_time": "天保山購物中心",
+        "opening_time": "11:00-20:00",
         "location": "",
         "location_url": "https://maps.app.goo.gl/GUPjg9CYHnw3meP47",
         "image_url": ""
+      }
+    },
+    {
+      "departure_time": "下午",
+      "transportation": null,
+      "attraction": {
+        "name": "帆船型觀光船 聖瑪麗亞號 白天遊覽",
+        "description": "每ㄧ小時整點一班，遊覽大阪港",
+        "fee": "大阪周遊券一日券",
+        "opening_time": "11:00-16:00",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/4VJWAJeBwWkXs4DJ8",
+        "image_url": "https://www.osp.osaka-info.jp/upload/facility_shop/34/20200123_192943_107361.jpg"
+      }
+    },
+    {
+      "departure_time": "下午",
+      "transportation": null,
+      "attraction": {
+        "name": "海遊館",
+        "description": "海遊館是日本最壯觀的水族館之一，展示的獨特性也聞名全球。海遊館再現大自然的環境，介紹環太平洋生活的動物們生動活潑的姿態。海遊館有15個以上的大水槽，各個水槽再現環太平洋的特定區域。來訪的遊客可以享受巡遊太平洋的樂趣。主水槽為長34公尺、深9公尺、水量5400噸的「太平洋」水槽，世界上體型最大的魚類“鯨鯊”悠遊其中。此外還有「日本森林」水槽，再現陽光照射的美麗的日本森林以及冰天雪地的「南極大陸」水槽等。",
+        "fee": "JPY 2,700",
+        "opening_time": "10:00-20:00",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/1kMopAe32QBANEFJ9",
+        "image_url": "https://www.kaiyukan.com/language/chinese_traditional/images/about_img.png"
+      }
+    },
+    {
+      "departure_time": "下午",
+      "transportation": null,
+      "attraction": {
+        "name": "天保山大摩天輪",
+        "description": "天氣晴朗的時候明石海峽大橋及關西機場等都能盡收眼底、高112.5m世界最大規模的摩天輪。底部透明的透明車廂（8台）更能體驗到100%的刺激感。",
+        "fee": "大阪周遊券一日券",
+        "opening_time": "10：00-21：00",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/VjguFUuw1RPKnNm26",
+        "image_url": "https://www.osp.osaka-info.jp/upload/facility_shop/32/20200123_192857_075591.jpg"
+      }
+    },
+    {
+      "departure_time": "下午",
+      "transportation": {
+        "type": "大阪市高速电气轨道",
+        "fee": "大阪周遊券一日券",
+        "description": "大阪港車站（中央線）堺筋本町 轉乘 堺筋線日本橋（大阪）",
+        "duration": "大約 30 分鐘"
+      },
+      "attraction": null
+    },
+    {
+      "departure_time": "",
+      "transportation": null,
+      "attraction": {
+        "name": "BON公寓酒店 難波日本橋",
+        "description": "[入住] 16:00之後 [退房] 至10:00",
+        "fee": "NTD 1,068/人/晚",
+        "opening_time": "",
+        "location": "大阪府大阪市中央区日本橋１丁目８−１７",
+        "location_url": "https://maps.app.goo.gl/oqykpP2EZ9R1vnbR8",
+        "image_url": "https://www.bon-lodging.com/wp-content/uploads/2021/02/003_nihonbashi_main.jpg"
       }
     }
   ],
