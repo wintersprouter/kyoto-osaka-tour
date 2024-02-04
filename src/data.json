@@ -73,7 +73,7 @@
       "departure_time": "8:10",
       "attraction": null,
       "transportation": {
-        "type": "中華航空",
+        "type": "中華航空 CI 156",
         "fee": "NTD 8,175",
         "description": "機上有提供餐盒",
         "duration": "3小時25分鐘"
@@ -188,6 +188,19 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "departure_time": "下午",
+      "transportation": null,
+      "attraction": {
+        "name": "錦天滿宮",
+        "description": "日本京都府京都市的一個神社，位於中京區錦小路通新京極通，錦市場以東。祭祀學問之神菅原道真。",
+        "fee": "",
+        "opening_time": "",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/fRqMt8SwZK2UVYxXA?g_st=ic",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Nishiki_Tenman-gu%2C_Worship_hall_01.jpg"
       }
     }
   ],
@@ -364,7 +377,7 @@
       "attraction": null,
       "transportation": {
         "type": "Uber/Taxi",
-        "fee": "",
+        "fee": "估 JPY 1,600",
         "description": "從飯店搭計程車直接搭到清水寺停車場",
         "departure_time": "",
         "duration": "大約 10 分鐘"
@@ -468,19 +481,7 @@
         "image_url": ""
       }
     },
-    {
-      "departure_time": "下午",
-      "transportation": null,
-      "attraction": {
-        "name": "錦天滿宮",
-        "description": "日本京都府京都市的一個神社，位於中京區錦小路通新京極通，錦市場以東。祭祀學問之神菅原道真。",
-        "fee": "",
-        "opening_time": "",
-        "location": "",
-        "location_url": "https://maps.app.goo.gl/fRqMt8SwZK2UVYxXA?g_st=ic",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Nishiki_Tenman-gu%2C_Worship_hall_01.jpg"
-      }
-    },
+
     {
       "departure_time": "下午",
       "transportation": null,
@@ -575,7 +576,7 @@
         "opening_time": "10:00-16:30 (11月~2月)",
         "location": "",
         "location_url": "https://maps.app.goo.gl/6wkpkwUaTbxqwB2E6",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Osaka_Castle_Nishinomaru_Garden_April_2005.JPG"
+        "image_url": "https://www.osp.osaka-info.jp/upload/facility_shop/30/20200123_193435_374660.jpg"
       }
     },
     {
@@ -664,6 +665,235 @@
       }
     }
   ],
-  "day5": [],
-  "day6": []
+  "day5": [
+    {
+      "departure_time": "早上",
+      "transportation": null,
+      "attraction": {
+        "name": "BON公寓酒店 難波日本橋",
+        "description": "民宿出發",
+        "fee": "",
+        "opening_time": "",
+        "location": "大阪府大阪市中央区日本橋１丁目８−１７",
+        "location_url": "https://maps.app.goo.gl/oqykpP2EZ9R1vnbR8",
+        "image_url": "https://www.bon-lodging.com/wp-content/uploads/2021/02/003_nihonbashi_main.jpg"
+      }
+    },
+    {
+      "departure_time": "早上",
+      "transportation": null,
+      "attraction": {
+        "name": "黑門市場",
+        "description": "這是大阪具有代表性的活力市場，遊客可一面逛街，同時又一面享受以時令海鮮為主的各種大阪美食。黑門市場是大阪的美食文化中心地，這裡聚集了150家以上排列密集的店家，因此成為一個無論是專業廚師、或是熱愛美食的旅客都能享受的景點。",
+        "fee": "",
+        "opening_time": "08:00",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/QyijFqNyNHdfYpmX9",
+        "image_url": "https://www.kintetsu.co.jp/foreign/assets/sightseeing/osaka/spot04/images/spot04_pic01.png"
+      }
+    },
+    {
+      "departure_time": "早上",
+      "transportation": null,
+      "attraction": {
+        "name": "難波八阪神社",
+        "description": "據說「難波八阪神社」最早創建於西元310年左右，建築在第二次世界大戰空襲中全數燒毀後，於1974年進行重建，並成了現在的本殿。而境內西側最著名的「獅子殿」也是在同年完工。神社的總本山為京都的「八坂神社」，神社名稱中不用「坂」字的理由是因為選用大阪的「阪」字。",
+        "fee": "",
+        "opening_time": "",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/w4yurhyx1PSDwCky7",
+        "image_url": "https://nambayasaka.jp/wp-content/uploads/hpb-media/shishi.png"
+      }
+    },
+    {
+      "departure_time": "下午",
+      "transportation": null,
+      "attraction": {
+        "name": "道頓堀、心齋橋筋商店街",
+        "description": "吃、逛街",
+        "fee": "",
+        "opening_time": "",
+        "location": "",
+        "location_url": "",
+        "image_url": ""
+      }
+    },
+    {
+      "departure_time": "18:00",
+      "transportation": null,
+      "attraction": {
+        "name": "国産牛焼肉食べ放題 あぶりや 道頓堀御堂筋店",
+        "description": "2 小時（最後點餐時間為 30 分鐘前)",
+        "fee": "國產牛套餐：JPY 5,038/人 牛鹽舌套餐：JPY 5,588/人",
+        "opening_time": "17:00~23:00",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/Y2yXLYahoJvDRESd7",
+        "image_url": "https://aburiya.1dining.co.jp/wp-content/themes/1dining/_assets/img/subfront.jpg"
+      }
+    },
+    {
+      "departure_time": "",
+      "transportation": null,
+      "attraction": {
+        "name": "BON公寓酒店 難波日本橋",
+        "description": "[入住] 16:00之後 [退房] 至10:00",
+        "fee": "NTD 1,068/人/晚",
+        "opening_time": "",
+        "location": "大阪府大阪市中央区日本橋１丁目８−１７",
+        "location_url": "https://maps.app.goo.gl/oqykpP2EZ9R1vnbR8",
+        "image_url": "https://www.bon-lodging.com/wp-content/uploads/2021/02/003_nihonbashi_main.jpg"
+      }
+    }
+  ],
+  "day6": [
+    {
+      "departure_time": "10:00 前",
+      "transportation": null,
+      "attraction": {
+        "name": "BON公寓酒店 難波日本橋",
+        "description": "退房",
+        "fee": "",
+        "opening_time": "",
+        "location": "大阪府大阪市中央区日本橋１丁目８−１７",
+        "location_url": "https://maps.app.goo.gl/oqykpP2EZ9R1vnbR8",
+        "image_url": "https://www.bon-lodging.com/wp-content/uploads/2021/02/003_nihonbashi_main.jpg"
+      }
+    },
+    {
+      "departure_time": "",
+      "transportation": {
+        "type": "步行",
+        "fee": "",
+        "description": "帶著行李走到南海難波站",
+        "duration": ""
+      },
+      "attraction": null
+    },
+    {
+      "departure_time": "",
+      "transportation": {
+        "type": "南海電鐵",
+        "fee": "JPY 820",
+        "description": "南海難波站南海機場線搭到臨空城站",
+        "duration": "1小時"
+      },
+      "attraction": null
+    },
+    {
+      "departure_time": "",
+      "transportation": null,
+      "attraction": {
+        "name": "臨空城 outlet",
+        "description": "行李寄放後即可逛街",
+        "fee": "",
+        "opening_time": "10:00-19:00",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/K2MnyLU7Nc8gbXdF6",
+        "image_url": "https://www.premiumoutlets.co.jp/m/_assets/images/common/top/img_photo-rinku.jpg"
+      }
+    },
+    {
+      "departure_time": "16:00",
+      "transportation": {
+        "type": "南海電鐵",
+        "fee": "JPY 370",
+        "description": "臨空城站搭到關西機場站",
+        "duration": "25 分鐘"
+      },
+      "attraction": null
+    },
+    {
+      "departure_time": "16:55",
+      "transportation": null,
+      "attraction": {
+        "name": "關西國際機場第 1 航廈",
+        "description": "前往華航櫃檯報到\r掛行李\r過海關",
+        "fee": "",
+        "opening_time": "",
+        "location": "",
+        "location_url": "",
+        "image_url": ""
+      }
+    },
+    {
+      "departure_time": "18:00",
+      "transportation": null,
+      "attraction": {
+        "name": "機場貴賓室",
+        "description": "休息",
+        "descLists": [
+          {
+            "listTitle": "Card Members Lounge Rokko",
+            "listItem": ["2樓 12 號登機門前面", "PRIORITY PASS 會員可使用"]
+          },
+          {
+            "listTitle": "Card Members Lounge Kongo",
+            "listItem": [
+              "空側 - 國際離境大堂。通過安全檢查後，2 樓，南翼。貴賓室位於 29 號閘口對面",
+              "PRIORITY PASS 會員可使用",
+              "酒精飲品須另外收費"
+            ]
+          },
+          {
+            "listTitle": "Card Members Lounge Annex Rokko",
+            "listItem": ["酒精飲品須另外收費"]
+          },
+          {
+            "listTitle": "Japan Travelling Restaurant by BOTEJYU",
+            "listItem": [
+              "空側 - 國內離境大堂。通過安全檢查後，Japan Travelling Restaurant by BOTEJYU 就在餐廳區。",
+              "餐廳",
+              "1. 持卡者可以使用到訪貴賓室最多 2 小時的專享禮遇，以獲扣減 JPY3,400 的帳單費用。每 JPY3,400 折扣代表持卡者使用現有的到訪貴賓室禮遇 1 次，並將在適用情況下向持卡者收取費用。例如：如果持卡者登記 1 位同行賓客，他們將共獲得 JPY6,800 折扣，並從持卡者的帳戶扣減 1 次持卡者到訪和 1 次同行賓客到訪。每位持卡者每次到訪貴賓室時，只可使用及登記 1 張會員卡。2. JPY3,400 折扣可用於購買任何餐點及/或飲品。為了符合資格，持卡者必須在下訂單前出示有效的會員卡和旅遊當天有效的登機證。3"
+            ]
+          },
+          {
+            "listTitle": "Botejyu 1946",
+            "listItem": [
+              "空側 - 國內離境大堂。通過安全檢查後，Botejyu 1946 就在餐廳區。",
+              "PRIORITY PASS 會員可使用",
+              "1. 持卡者可以使用到訪貴賓室最多 2 小時的專享禮遇，以獲扣減 JPY3,400 的帳單費用。每 JPY3,400 折扣代表持卡者使用現有的到訪貴賓室禮遇 1 次，並將在適用情況下向持卡者收取費用。例如：如果持卡者登記 1 位同行賓客，他們將共獲得 JPY6,800 折扣，並從持卡者的帳戶扣減 1 次持卡者到訪和 1 次同行賓客到訪。每位持卡者每次到訪貴賓室時，只可使用及登記 1 張會員卡。2. JPY3,400 折扣可用於購買任何餐點及/或飲品。為了符合資格，持卡者必須在下訂單前出示有效的會員卡和旅遊當天有效的登機證。"
+            ]
+          }
+        ],
+        "fee": "0",
+        "opening_time": "24小時",
+        "location": "日本大阪",
+        "location_url": "",
+        "image_url": ""
+      }
+    },
+    {
+      "departure_time": "18:55",
+      "attraction": null,
+      "transportation": {
+        "type": "中華航空 CI 173",
+        "fee": "NTD 8,175",
+        "description": "機上有提供餐盒",
+        "duration": "3小時15分鐘"
+      }
+    },
+    {
+      "departure_time": "21:10",
+      "transportation": null,
+      "attraction": {
+        "name": "桃園國際機場第二航廈",
+        "description": "",
+        "fee": "",
+        "opening_time": "24小時",
+        "location": "桃園市",
+        "location_url": "https://maps.app.goo.gl/oA9vqygxc3KLf9u79",
+        "image_url": ""
+      }
+    },
+    {
+      "departure_time": "21:20",
+      "transportation": {
+        "type": "機場接送",
+        "fee": "0",
+        "description": "",
+        "duration": "大約 40 分鐘"
+      },
+      "attraction": null
+    }
+  ]
 }

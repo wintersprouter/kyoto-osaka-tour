@@ -119,7 +119,7 @@ function App() {
                             <img
                               src={item.attraction.image_url}
                               alt={item.attraction.name}
-                              className='rounded-xl bg-cover'
+                              className='rounded-xl bg-cover md:max-w-2xl'
                             />
                           </figure>
                         )}
