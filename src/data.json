@@ -888,6 +888,103 @@
       "attraction": null
     }
   ],
-  "day6-2": [],
-  "day7": []
+  "day6-2": [
+    {
+      "departure_time": "10:00 前",
+      "transportation": null,
+      "attraction": {
+        "name": "BON公寓酒店 難波日本橋",
+        "description": "退房",
+        "fee": "",
+        "opening_time": "",
+        "location": "大阪府大阪市中央区日本橋１丁目８−１７",
+        "location_url": "https://maps.app.goo.gl/oqykpP2EZ9R1vnbR8",
+        "image_url": "https://www.bon-lodging.com/wp-content/uploads/2021/02/003_nihonbashi_main.jpg"
+      }
+    },
+    {
+      "departure_time": "",
+      "transportation": {
+        "type": "前往東京",
+        "fee": "",
+        "description": "",
+        "duration": ""
+      },
+      "attraction": null
+    },
+    {
+      "departure_time": "",
+      "transportation": null,
+      "attraction": {
+        "name": "トーセイホテルココネ上野御徒町",
+        "description": "入住 15:00 退房 10:00",
+        "fee": "JPY14,850/2人/晚",
+        "opening_time": "",
+        "location": "Tokyo 台東区 上野3-23-9",
+        "location_url": "https://maps.app.goo.gl/gcTz6tNjWEAyH2HZ7",
+        "image_url": "https://tosei-hotel.co.jp/uenookachimachi/access/images/img_okachimachimap.png"
+      }
+    }
+  ],
+  "day7": [
+    {
+      "departure_time": "早上",
+      "transportation": null,
+      "attraction": {
+        "name": "トーセイホテルココネ上野御徒町",
+        "description": "退房 10:00 後寄放行李",
+        "fee": "JPY14,850/2人/晚",
+        "opening_time": "",
+        "location": "Tokyo 台東区 上野3-23-9",
+        "location_url": "https://maps.app.goo.gl/gcTz6tNjWEAyH2HZ7",
+        "image_url": "https://tosei-hotel.co.jp/uenookachimachi/access/images/img_okachimachimap.png"
+      }
+    },
+    {
+      "departure_time": "16:00",
+      "transportation": {
+        "type": "Skyliner",
+        "fee": "NTD 487",
+        "description": "最晚要搭上 16:00 從京成上野的 Skyliner",
+        "duration": "43 分鐘"
+      },
+      "attraction": null
+    },
+    {
+      "departure_time": "17:00",
+      "transportation": null,
+      "attraction": {
+        "name": "成田機場第 2 航廈",
+        "description": "前往華航櫃檯報到\r掛行李\r過海關",
+        "fee": "",
+        "opening_time": "",
+        "location": "",
+        "location_url": "",
+        "image_url": ""
+      }
+    },
+    {
+      "departure_time": "20:00",
+      "transportation": {
+        "type": "中華航空 CI 109",
+        "fee": "NTD 8,175 + NTD 2,590 + NTD 628",
+        "description": "機上有提供餐盒",
+        "duration": "2 小時 55 分鐘"
+      },
+      "attraction": null
+    },
+    {
+      "departure_time": "22:55",
+      "transportation": null,
+      "attraction": {
+        "name": "桃園國際機場第二航廈",
+        "description": "",
+        "fee": "",
+        "opening_time": "24小時",
+        "location": "桃園市",
+        "location_url": "https://maps.app.goo.gl/oA9vqygxc3KLf9u79",
+        "image_url": ""
+      }
+    }
+  ]
 }
