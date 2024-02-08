@@ -531,7 +531,7 @@
   ],
   "day4": [
     {
-      "departure_time": "8:30",
+      "departure_time": "6:30",
       "transportation": null,
       "attraction": {
         "name": "BON公寓酒店 難波日本橋",
@@ -544,110 +544,43 @@
       }
     },
     {
-      "departure_time": "早上",
+      "departure_time": "6:50",
       "transportation": {
-        "type": "大阪市高速电气轨道",
-        "fee": "大阪周遊券一日券",
-        "description": "日本橋（大阪）堺筋線至堺筋本町，在堺筋本町轉乘中央線，搭到谷町四丁目車站",
-        "duration": "大約 30 分鐘"
+        "type": "近畿日本鉄道＋ＪＲ",
+        "fee": "JPY 570",
+        "description": "近鐵日本橋往西九条車站（阪神難波線 往尼崎方向）西九条車站換乘ＪＲ 櫻島線櫻島方向到環球影城",
+        "descLists": [
+          {
+            "listTitle": "如何在 JR 西九條站轉乘 JR 櫻島線（夢咲線）",
+            "listItem": [
+              "【從阪神西九條站轉乘】:從阪神西九條站前往 JR 西九條轉乘 JR 櫻島線（夢咲線）列車的旅客，進入 JR 車站後請依照「ユニバーサルシティ（Universal City，環球城）方面」指標，到第 3 月台搭乘往櫻島的 JR 櫻島線（夢咲線）列車。由於第 2、3 月台會停靠往櫻島以及往大阪車站的列車，所以請務必確認月台上的列車是開往櫻島再上車。"
+            ]
+          }
+        ],
+        "duration": "大約 40 分鐘"
       },
       "attraction": null
     },
     {
-      "departure_time": "早上",
+      "departure_time": "8:00 前抵達",
       "transportation": null,
       "attraction": {
-        "name": "大阪城",
-        "description": "先去兌換大阪城御座船",
-        "fee": "大阪周遊券一日券",
-        "opening_time": "09:00-17:00",
+        "name": "大阪環球影城",
+        "description": "",
+        "fee": "NTD 1,839",
+        "opening_time": "09:00-20:30",
         "location": "",
-        "location_url": "https://maps.app.goo.gl/6wkpkwUaTbxqwB2E6",
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Osaka_Castle_Nishinomaru_Garden_April_2005.JPG"
+        "location_url": "https://maps.app.goo.gl/2ZvdqCq7R5MF87Hh9",
+        "image_url": "https://www.usj.co.jp/tridiondata/usj/zh/tw/files/images/usj-the-wizarding-world-of-harry-potter-hogwarts-castle-c.jpg?imwidth=738"
       }
     },
     {
-      "departure_time": "早上",
-      "transportation": null,
-      "attraction": {
-        "name": "大阪城御座船",
-        "description": "門票從9點30分開始販售。遊覽大阪城護城河20分鐘",
-        "fee": "大阪周遊券一日券",
-        "opening_time": "10:00-16:30 (11月~2月)",
-        "location": "",
-        "location_url": "https://maps.app.goo.gl/6wkpkwUaTbxqwB2E6",
-        "image_url": "https://www.osp.osaka-info.jp/upload/facility_shop/30/20200123_193435_374660.jpg"
-      }
-    },
-    {
-      "departure_time": "早上",
+      "departure_time": "20:30",
       "transportation": {
-        "type": "大阪市高速电气轨道",
-        "fee": "大阪周遊券一日券",
-        "description": "谷町四丁目車站中央線至大阪港",
-        "duration": "大約 30 分鐘"
-      },
-      "attraction": null
-    },
-    {
-      "departure_time": "中午",
-      "transportation": null,
-      "attraction": {
-        "name": "天保山購物中心",
-        "description": "吃飯、逛街",
-        "fee": "",
-        "opening_time": "11:00-20:00",
-        "location": "",
-        "location_url": "https://maps.app.goo.gl/GUPjg9CYHnw3meP47",
-        "image_url": ""
-      }
-    },
-    {
-      "departure_time": "下午",
-      "transportation": null,
-      "attraction": {
-        "name": "帆船型觀光船 聖瑪麗亞號 白天遊覽",
-        "description": "每ㄧ小時整點一班，遊覽大阪港",
-        "fee": "大阪周遊券一日券",
-        "opening_time": "11:00-16:00",
-        "location": "",
-        "location_url": "https://maps.app.goo.gl/4VJWAJeBwWkXs4DJ8",
-        "image_url": "https://www.osp.osaka-info.jp/upload/facility_shop/34/20200123_192943_107361.jpg"
-      }
-    },
-    {
-      "departure_time": "下午",
-      "transportation": null,
-      "attraction": {
-        "name": "海遊館",
-        "description": "海遊館是日本最壯觀的水族館之一，展示的獨特性也聞名全球。海遊館再現大自然的環境，介紹環太平洋生活的動物們生動活潑的姿態。海遊館有15個以上的大水槽，各個水槽再現環太平洋的特定區域。來訪的遊客可以享受巡遊太平洋的樂趣。主水槽為長34公尺、深9公尺、水量5400噸的「太平洋」水槽，世界上體型最大的魚類“鯨鯊”悠遊其中。此外還有「日本森林」水槽，再現陽光照射的美麗的日本森林以及冰天雪地的「南極大陸」水槽等。",
-        "fee": "JPY 2,700",
-        "opening_time": "10:00-20:00",
-        "location": "",
-        "location_url": "https://maps.app.goo.gl/1kMopAe32QBANEFJ9",
-        "image_url": "https://www.kaiyukan.com/language/chinese_traditional/images/about_img.png"
-      }
-    },
-    {
-      "departure_time": "下午",
-      "transportation": null,
-      "attraction": {
-        "name": "天保山大摩天輪",
-        "description": "天氣晴朗的時候明石海峽大橋及關西機場等都能盡收眼底、高112.5m世界最大規模的摩天輪。底部透明的透明車廂（8台）更能體驗到100%的刺激感。",
-        "fee": "大阪周遊券一日券",
-        "opening_time": "10：00-21：00",
-        "location": "",
-        "location_url": "https://maps.app.goo.gl/VjguFUuw1RPKnNm26",
-        "image_url": "https://www.osp.osaka-info.jp/upload/facility_shop/32/20200123_192857_075591.jpg"
-      }
-    },
-    {
-      "departure_time": "下午",
-      "transportation": {
-        "type": "大阪市高速电气轨道",
-        "fee": "大阪周遊券一日券",
-        "description": "大阪港車站（中央線）堺筋本町 轉乘 堺筋線日本橋（大阪）",
-        "duration": "大約 30 分鐘"
+        "type": "ＪＲ＋ 近畿日本鉄道",
+        "fee": "JPY 570",
+        "description": "ＪＲ 櫻島線櫻島方向到西九条車站，西九条車站往近鐵日本橋（阪神難波線）西九条車站換乘",
+        "duration": "大約 40 分鐘"
       },
       "attraction": null
     },
@@ -694,6 +627,65 @@
     },
     {
       "departure_time": "早上",
+      "transportation": {
+        "type": "大阪市高速电气轨道",
+        "fee": "JPY 290",
+        "description": "日本橋（大阪）堺筋線搭到堺筋本町，轉乘中央線到大阪港",
+        "duration": "大約 30 分鐘"
+      },
+      "attraction": null
+    },
+    {
+      "departure_time": "早上",
+      "transportation": null,
+      "attraction": {
+        "name": "海遊館",
+        "description": "海遊館是日本最壯觀的水族館之一，展示的獨特性也聞名全球。海遊館再現大自然的環境，介紹環太平洋生活的動物們生動活潑的姿態。海遊館有15個以上的大水槽，各個水槽再現環太平洋的特定區域。來訪的遊客可以享受巡遊太平洋的樂趣。主水槽為長34公尺、深9公尺、水量5400噸的「太平洋」水槽，世界上體型最大的魚類“鯨鯊”悠遊其中。此外還有「日本森林」水槽，再現陽光照射的美麗的日本森林以及冰天雪地的「南極大陸」水槽等。",
+        "fee": "JPY 2,700",
+        "opening_time": "10:00-20:00",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/1kMopAe32QBANEFJ9",
+        "image_url": "https://www.kaiyukan.com/language/chinese_traditional/images/about_img.png"
+      }
+    },
+    {
+      "departure_time": "中午",
+      "transportation": null,
+      "attraction": {
+        "name": "天保山購物中心",
+        "description": "吃飯、逛街",
+        "fee": "",
+        "opening_time": "11:00-20:00",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/GUPjg9CYHnw3meP47",
+        "image_url": ""
+      }
+    },
+    {
+      "departure_time": "下午",
+      "transportation": {
+        "type": "大阪市高速电气轨道",
+        "fee": "JPY 290",
+        "description": "大阪港中央線搭到本町站，轉乘御堂筋線到難波站",
+        "duration": "大約 33 分鐘"
+      },
+      "attraction": null
+    },
+    {
+      "departure_time": "下午",
+      "transportation": null,
+      "attraction": {
+        "name": "mont-bell 難波城市店",
+        "description": "難波 CITY 南館B1，退稅要走到city本館b2，大阪唯一可以退稅的mont-bell，位於南海City，退稅在B2，百貨公司會抽2.1%退稅服務費",
+        "fee": "",
+        "opening_time": "11:00-21:00",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/w4yurhyx1PSDwCky7",
+        "image_url": "https://nambayasaka.jp/wp-content/uploads/hpb-media/shishi.png"
+      }
+    },
+    {
+      "departure_time": "下午",
       "transportation": null,
       "attraction": {
         "name": "難波八阪神社",
@@ -793,7 +785,7 @@
       }
     },
     {
-      "departure_time": "16:00",
+      "departure_time": "15:00",
       "transportation": {
         "type": "南海電鐵",
         "fee": "JPY 370",
@@ -803,7 +795,7 @@
       "attraction": null
     },
     {
-      "departure_time": "16:55",
+      "departure_time": "15:55",
       "transportation": null,
       "attraction": {
         "name": "關西國際機場第 1 航廈",
@@ -895,5 +887,7 @@
       },
       "attraction": null
     }
-  ]
+  ],
+  "day6-2": [],
+  "day7": []
 }
