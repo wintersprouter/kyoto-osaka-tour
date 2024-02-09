@@ -51,7 +51,7 @@ function App() {
           </h1>
           <iframe
             src='https://www.google.com/maps/d/u/0/embed?mid=1UG7cqsHaPA-t9-a7GqsAGRtfcP8M3G8'
-            width='380'
+            width='350'
             height='480'
             className='my-5'
           ></iframe>
@@ -60,13 +60,13 @@ function App() {
       {(selectedDay.id === "4" ||
         selectedDay.id === "5" ||
         selectedDay.id === "6-1") && (
-        <section>
+        <section className='my-5'>
           <h1 className='text-3xl font-bold text-left text sm:text-2xl'>
             大阪旅行地圖
           </h1>
           <iframe
             src='https://www.google.com/maps/d/u/0/embed?mid=1nVi0vluvBXRFgG69KpHAaluBDTyTUFg&ehbc=2E312F'
-            width='380'
+            width='350'
             height='480'
             className='my-5'
           ></iframe>
