@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Clock, DollarSign, MapPin } from "react-feather";
 import "./App.css";
 import Navbar from "./components/Navbar";
@@ -32,7 +32,15 @@ const days = [
 ];
 
 function App() {
-  const [selectedDay, setSelectedDay] = useState(days[0]);
+  const [selectedDay, setSelectedDay] = useState(
+    localStorage.getItem("selectedDay")
+      ? JSON.parse(localStorage.getItem("selectedDay"))
+      : days[0]
+  );
+
+  useEffect(() => {
+    localStorage.setItem("selectedDay", JSON.stringify(selectedDay));
+  }, [selectedDay]);
 
   return (
     <>
