@@ -498,10 +498,10 @@
     {
       "departure_time": "下午",
       "transportation": {
-        "type": "京都市營地鐵 + 阪急京都線",
-        "fee": "JPY 870",
-        "description": "從五條（京都市營）搭乘地鐵到-四條（京都市營），再搭乘阪急京都線到烏丸-日本橋",
-        "duration": "大約 60 分鐘"
+        "type": "京都市營地鐵 + 東海道、山陽本線 + 大阪環狀線",
+        "fee": "JPY 960",
+        "description": "從五條（京都市營）搭乘地鐵到京都車站，再搭乘東海道、山陽本線新快速米原到大阪站再轉至福島站",
+        "duration": "大約 52 分鐘"
       },
       "attraction": null
     },
@@ -519,13 +519,13 @@
       "departure_time": "16:00",
       "transportation": null,
       "attraction": {
-        "name": "BON公寓酒店 難波日本橋",
-        "description": "[入住] 16:00之後 [退房] 至10:00",
-        "fee": "NTD 1,068/人/晚",
+        "name": "大阪阪神飯店",
+        "description": "[入住] 15:00之後 [退房] 至12:00",
+        "fee": "JYP 7,059/人/晚",
         "opening_time": "",
-        "location": "大阪府大阪市中央区日本橋１丁目８−１７",
-        "location_url": "https://maps.app.goo.gl/oqykpP2EZ9R1vnbR8",
-        "image_url": "https://www.bon-lodging.com/wp-content/uploads/2021/02/003_nihonbashi_main.jpg"
+        "location": "5-6-16 Fukushima, Fukushima-ku553-0003 Osaka",
+        "location_url": "https://maps.app.goo.gl/4oYUgjZGpzizscQA6",
+        "image_url": "https://www.hankyu-hotel.com/en/hotel/hs/hanshin/-/media/en/hotel/hs/hanshin/main_picture/gaikan1440.jpg"
       }
     }
   ],
@@ -534,21 +534,21 @@
       "departure_time": "6:30",
       "transportation": null,
       "attraction": {
-        "name": "BON公寓酒店 難波日本橋",
-        "description": "民宿出發",
+        "name": "大阪阪神飯店",
+        "description": "",
         "fee": "",
         "opening_time": "",
-        "location": "大阪府大阪市中央区日本橋１丁目８−１７",
-        "location_url": "https://maps.app.goo.gl/oqykpP2EZ9R1vnbR8",
-        "image_url": "https://www.bon-lodging.com/wp-content/uploads/2021/02/003_nihonbashi_main.jpg"
+        "location": "5-6-16 Fukushima, Fukushima-ku553-0003 Osaka",
+        "location_url": "https://maps.app.goo.gl/4oYUgjZGpzizscQA6",
+        "image_url": "https://www.hankyu-hotel.com/en/hotel/hs/hanshin/-/media/en/hotel/hs/hanshin/main_picture/gaikan1440.jpg"
       }
     },
     {
-      "departure_time": "6:50",
+      "departure_time": "6:45",
       "transportation": {
-        "type": "近畿日本鉄道＋ＪＲ",
-        "fee": "JPY 570",
-        "description": "近鐵日本橋往西九条車站（阪神難波線 往尼崎方向）西九条車站換乘ＪＲ 櫻島線櫻島方向到環球影城",
+        "type": "ＪＲ大阪環狀線",
+        "fee": "JPY 170",
+        "description": "從福島站出發 6:55 跟 7:20 為直達車",
         "descLists": [
           {
             "listTitle": "如何在 JR 西九條站轉乘 JR 櫻島線（夢咲線）",
@@ -557,7 +557,7 @@
             ]
           }
         ],
-        "duration": "大約 40 分鐘"
+        "duration": "大約 15 分鐘"
       },
       "attraction": null
     },
@@ -577,10 +577,10 @@
     {
       "departure_time": "20:30",
       "transportation": {
-        "type": "ＪＲ＋ 近畿日本鉄道",
-        "fee": "JPY 570",
+        "type": "ＪＲ大阪環狀線",
+        "fee": "JPY 170",
         "description": "ＪＲ 櫻島線櫻島方向到西九条車站，西九条車站往近鐵日本橋（阪神難波線）西九条車站換乘",
-        "duration": "大約 40 分鐘"
+        "duration": "大約 15 分鐘"
       },
       "attraction": null
     },
@@ -588,13 +588,13 @@
       "departure_time": "",
       "transportation": null,
       "attraction": {
-        "name": "BON公寓酒店 難波日本橋",
-        "description": "[入住] 16:00之後 [退房] 至10:00",
-        "fee": "NTD 1,068/人/晚",
+        "name": "大阪阪神飯店",
+        "description": "[入住] 15:00之後 [退房] 至12:00",
+        "fee": "JYP 7,059/人/晚",
         "opening_time": "",
-        "location": "大阪府大阪市中央区日本橋１丁目８−１７",
-        "location_url": "https://maps.app.goo.gl/oqykpP2EZ9R1vnbR8",
-        "image_url": "https://www.bon-lodging.com/wp-content/uploads/2021/02/003_nihonbashi_main.jpg"
+        "location": "5-6-16 Fukushima, Fukushima-ku553-0003 Osaka",
+        "location_url": "https://maps.app.goo.gl/4oYUgjZGpzizscQA6",
+        "image_url": "https://www.hankyu-hotel.com/en/hotel/hs/hanshin/-/media/en/hotel/hs/hanshin/main_picture/gaikan1440.jpg"
       }
     }
   ],
@@ -603,40 +603,28 @@
       "departure_time": "早上",
       "transportation": null,
       "attraction": {
-        "name": "BON公寓酒店 難波日本橋",
-        "description": "民宿出發",
+        "name": "大阪阪神飯店",
+        "description": "出發",
         "fee": "",
         "opening_time": "",
-        "location": "大阪府大阪市中央区日本橋１丁目８−１７",
-        "location_url": "https://maps.app.goo.gl/oqykpP2EZ9R1vnbR8",
-        "image_url": "https://www.bon-lodging.com/wp-content/uploads/2021/02/003_nihonbashi_main.jpg"
+        "location": "5-6-16 Fukushima, Fukushima-ku553-0003 Osaka",
+        "location_url": "https://maps.app.goo.gl/4oYUgjZGpzizscQA6",
+        "image_url": "https://www.hankyu-hotel.com/en/hotel/hs/hanshin/-/media/en/hotel/hs/hanshin/main_picture/gaikan1440.jpg"
       }
     },
+
     {
-      "departure_time": "早上",
-      "transportation": null,
-      "attraction": {
-        "name": "黑門市場",
-        "description": "這是大阪具有代表性的活力市場，遊客可一面逛街，同時又一面享受以時令海鮮為主的各種大阪美食。黑門市場是大阪的美食文化中心地，這裡聚集了150家以上排列密集的店家，因此成為一個無論是專業廚師、或是熱愛美食的旅客都能享受的景點。",
-        "fee": "",
-        "opening_time": "08:00",
-        "location": "",
-        "location_url": "https://maps.app.goo.gl/QyijFqNyNHdfYpmX9",
-        "image_url": "https://www.kintetsu.co.jp/foreign/assets/sightseeing/osaka/spot04/images/spot04_pic01.png"
-      }
-    },
-    {
-      "departure_time": "早上",
+      "departure_time": "9:00-9:20",
       "transportation": {
-        "type": "大阪市高速电气轨道",
-        "fee": "JPY 290",
-        "description": "日本橋（大阪）堺筋線搭到堺筋本町，轉乘中央線到大阪港",
+        "type": "大阪環狀線 + 中央線",
+        "fee": "JPY 410",
+        "description": "福島站搭到弁天町，轉乘中央線到大阪港",
         "duration": "大約 30 分鐘"
       },
       "attraction": null
     },
     {
-      "departure_time": "早上",
+      "departure_time": "10:00",
       "transportation": null,
       "attraction": {
         "name": "海遊館",
@@ -725,49 +713,50 @@
     },
     {
       "departure_time": "",
-      "transportation": null,
-      "attraction": {
-        "name": "BON公寓酒店 難波日本橋",
-        "description": "[入住] 16:00之後 [退房] 至10:00",
-        "fee": "NTD 1,068/人/晚",
-        "opening_time": "",
-        "location": "大阪府大阪市中央区日本橋１丁目８−１７",
-        "location_url": "https://maps.app.goo.gl/oqykpP2EZ9R1vnbR8",
-        "image_url": "https://www.bon-lodging.com/wp-content/uploads/2021/02/003_nihonbashi_main.jpg"
-      }
-    }
-  ],
-  "day6-1": [
-    {
-      "departure_time": "10:00 前",
-      "transportation": null,
-      "attraction": {
-        "name": "BON公寓酒店 難波日本橋",
-        "description": "退房",
-        "fee": "",
-        "opening_time": "",
-        "location": "大阪府大阪市中央区日本橋１丁目８−１７",
-        "location_url": "https://maps.app.goo.gl/oqykpP2EZ9R1vnbR8",
-        "image_url": "https://www.bon-lodging.com/wp-content/uploads/2021/02/003_nihonbashi_main.jpg"
-      }
-    },
-    {
-      "departure_time": "",
       "transportation": {
-        "type": "步行",
-        "fee": "",
-        "description": "帶著行李走到南海難波站",
-        "duration": ""
+        "type": "御堂筋線",
+        "fee": "JPY 240",
+        "description": "心齋橋站或四橋站搭到梅田，再走回飯店",
+        "duration": "大約 20 分鐘"
       },
       "attraction": null
     },
     {
       "departure_time": "",
+      "transportation": null,
+      "attraction": {
+        "name": "大阪阪神飯店",
+        "description": "[入住] 15:00之後 [退房] 至12:00",
+        "fee": "JYP 7,059/人/晚",
+        "opening_time": "",
+        "location": "5-6-16 Fukushima, Fukushima-ku553-0003 Osaka",
+        "location_url": "https://maps.app.goo.gl/4oYUgjZGpzizscQA6",
+        "image_url": "https://www.hankyu-hotel.com/en/hotel/hs/hanshin/-/media/en/hotel/hs/hanshin/main_picture/gaikan1440.jpg"
+      }
+    }
+  ],
+  "day6-1": [
+    {
+      "departure_time": "12:00 前",
+      "transportation": null,
+      "attraction": {
+        "name": "大阪阪神飯店",
+        "description": "退房",
+        "fee": "",
+        "opening_time": "",
+        "location": "5-6-16 Fukushima, Fukushima-ku553-0003 Osaka",
+        "location_url": "https://maps.app.goo.gl/4oYUgjZGpzizscQA6",
+        "image_url": "https://www.hankyu-hotel.com/en/hotel/hs/hanshin/-/media/en/hotel/hs/hanshin/main_picture/gaikan1440.jpg"
+      }
+    },
+
+    {
+      "departure_time": "",
       "transportation": {
-        "type": "南海電鐵",
-        "fee": "JPY 820",
-        "description": "南海難波站南海機場線搭到臨空城站",
-        "duration": "1小時"
+        "type": "JR 關空快速列車",
+        "fee": "JPY 1,020",
+        "description": "大阪環狀線關西機場線快速電車關西機場 請坐在前四節車廂！搭到臨空城站",
+        "duration": "1小時16分"
       },
       "attraction": null
     },
@@ -893,22 +882,96 @@
       "departure_time": "10:00 前",
       "transportation": null,
       "attraction": {
-        "name": "BON公寓酒店 難波日本橋",
+        "name": "大阪阪神飯店",
         "description": "退房",
         "fee": "",
         "opening_time": "",
-        "location": "大阪府大阪市中央区日本橋１丁目８−１７",
-        "location_url": "https://maps.app.goo.gl/oqykpP2EZ9R1vnbR8",
-        "image_url": "https://www.bon-lodging.com/wp-content/uploads/2021/02/003_nihonbashi_main.jpg"
+        "location": "5-6-16 Fukushima, Fukushima-ku553-0003 Osaka",
+        "location_url": "https://maps.app.goo.gl/4oYUgjZGpzizscQA6",
+        "image_url": "https://www.hankyu-hotel.com/en/hotel/hs/hanshin/-/media/en/hotel/hs/hanshin/main_picture/gaikan1440.jpg"
       }
     },
     {
-      "departure_time": "",
+      "departure_time": "8:06",
       "transportation": {
         "type": "前往東京",
-        "fee": "",
+        "fee": "JPY 14,920",
         "description": "",
+        "descLists": [
+          {
+            "listTitle": "ＪＲ福島站到ＪＲ大阪站",
+            "listItem": [
+              "大阪環狀線紀州路快速電車京橋（大阪）方向: 1 站",
+              "2 號月台"
+            ]
+          },
+          {
+            "listTitle": "大阪站到新大阪站",
+            "listItem": [
+              "東海道、山陽本線新快速草津（滋賀）方向: 1 站",
+              "8 號月台"
+            ]
+          },
+          {
+            "listTitle": "新大阪站到東京站",
+            "listItem": [
+              "東海道、山陽新幹線希望2希望東京 2 小時 27 分 (5 個停靠站)",
+              " 27 號月台",
+              "從2020年5月開始，欲搭乘新幹線的旅客在訂位之時，若攜帶行李長、寬、高總和起來於160公分～250公分以內（約為國際航空托運行李箱尺寸），就必須提前預約寄放位置（嬰兒車也可）。反之，沒有事先預約則會被酌收1000日幣。另外，行李超過規定尺寸也無法攜入車廂。"
+            ]
+          },
+          {
+            "listTitle": "東京站到御徒町站",
+            "listItem": ["山手線各站停車上野 / 池袋方面(內環線)", "4 號月台"]
+          }
+        ],
         "duration": ""
+      },
+      "attraction": null
+    },
+    {
+      "departure_time": "",
+      "transportation": null,
+      "attraction": {
+        "name": "トーセイホテルココネ上野御徒町",
+        "description": "入住 15:00 退房 10:00",
+        "fee": "JPY14,850/2人/晚",
+        "opening_time": "",
+        "location": "Tokyo 台東区 上野3-23-9",
+        "location_url": "https://maps.app.goo.gl/gcTz6tNjWEAyH2HZ7",
+        "image_url": "https://tosei-hotel.co.jp/uenookachimachi/access/images/img_okachimachimap.png"
+      }
+    },
+    {
+      "departure_time": "15:00",
+      "transportation": {
+        "type": "東日本旅客鐵路",
+        "fee": "JPY 150",
+        "description": "御徒町搭山手線往秋葉原，在秋葉原轉乘中央總武線到水道橋",
+        "duration": "20 分鐘"
+      },
+      "attraction": null
+    },
+    {
+      "departure_time": "15:30",
+      "transportation": null,
+      "attraction": {
+        "name": "東京巨蛋",
+        "description": "17:00 開演",
+        "fee": "",
+        "opening_time": "",
+        "location": "",
+        "location_url": "https://maps.app.goo.gl/h5rX31RSuQeVspE2A",
+        "image_url": ""
+      }
+    },
+    {
+      "departure_time": "19:30",
+      "transportation": {
+        "type": "東日本旅客鐵路",
+        "fee": "JPY 150",
+        "description": "在水道橋中央總武線到秋葉原轉乘山手線御徒町搭",
+        "duration": "20 分鐘"
       },
       "attraction": null
     },
