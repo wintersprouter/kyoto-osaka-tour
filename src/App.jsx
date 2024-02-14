@@ -158,15 +158,6 @@ function App() {
                       </div>
                     ) : (
                       <div className='card card-compact  bg-base-100 shadow-2xl p-4'>
-                        {item.attraction.image_url && (
-                          <figure>
-                            <img
-                              src={item.attraction.image_url}
-                              alt={item.attraction.name}
-                              className='rounded-xl bg-cover md:max-w-2xl'
-                            />
-                          </figure>
-                        )}
                         <div className='card-body'>
                           <h2 className='card-title'>{item.attraction.name}</h2>
                           <p className='text-left'>
